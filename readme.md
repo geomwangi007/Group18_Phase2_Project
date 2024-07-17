@@ -11,10 +11,6 @@ Real Estate Agents: The primary stakeholders who will benefit from accurate pric
 ### Objective
 To develop a regression model that predicts the sale price of homes based on various features such as square footage, number of bedrooms, bathrooms, location, and other relevant variables.
 
-## Approach
-### Model Development: Use regression model to predict the sale price of homes.
-Feature Analysis: Identify which features are the most influential in determining the price.
-Prediction Accuracy: Evaluate model performance using metrics like Root Mean Squared Error (RMSE) and R².
 ## Dataset
 The project uses the King County House Sales dataset, kc_house_data.csv, which contains the following features:
 
