@@ -124,7 +124,15 @@ The Multiple Linear Regression model significantly outperforms the Simple Linear
 A lower MSE indicates that the Multiple Linear Regression model has a better fit to the data and makes more accurate predictions.
 
 A higher R^2 score (0.576 compared to 0.503) suggests that the Multiple Linear Regression model explains a greater proportion of the variance in the dependent variable, making it a more reliable model for predicting outcomes.
+![alt text](download-3.png)
 
+![alt text](download-4.png)
+
+Conclusion:
+
+Incremental Improvement: Each step of adding a new feature generally improves the model, reducing the MSE and increasing R².
+
+Best Model: Model 4 and Model 5 both explain 57% of the variability in house prices with a slight difference in MSE. Therefore, Model 4 can be considered optimal for its simplicity and performance.
 
 
 ## **Complexity and Predictive Power:**
