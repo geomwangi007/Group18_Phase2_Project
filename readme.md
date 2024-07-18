@@ -72,7 +72,26 @@ The dataset may have missing values and outliers that could affect the model's a
 ## Exploratory Data Analysis (EDA)
 
 Visualizing the distribution of the target variable (price).
+![alt text](download-1.png)
 Analyzing relationships between price and key features (e.g., sqft_living, bedrooms, bathrooms).
+![alt text](download-2.png)
+
+Key High Correlations:
+price:
+
+sqft_living: Strong positive correlation (0.7) — As the square footage of the living area increases, the price tends to increase. bathrooms: Moderate positive correlation (0.53) — Houses with more bathrooms tend to be priced higher.
+
+bedrooms:
+
+bathrooms: Strong positive correlation (0.52) — Houses with more bedrooms often have more bathrooms. sqft_living: Moderate positive correlation (0.58) — More bedrooms are associated with larger living areas.
+
+bathrooms:
+
+sqft_living: Strong positive correlation (0.76) — More bathrooms are typically found in houses with larger living areas.
+
+sqft_living:
+
+bathrooms: Strong positive correlation (0.76) — More bathrooms are typically found in houses with larger living areas. price: Strong positive correlation (0.7) — Larger living areas are associated with higher prices.
 
 
 ## Model Development
@@ -80,8 +99,6 @@ Analyzing relationships between price and key features (e.g., sqft_living, bedro
 linear regression model.
 Multiple Linear Regression.![alt text](download.png)
 
-Switching correlated variables to check the variables yielding best model performance.
-Evaluating model performance.
 
 ## Business Insights
 
