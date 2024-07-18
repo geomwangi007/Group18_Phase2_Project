@@ -6,12 +6,28 @@
 This project focuses on predicting house prices in King County, Washington, using regression modeling. The goal is to provide real estate agents with accurate pricing recommendations for homeowners looking to sell their properties as well as homebuyers looking to get a fair deal. By setting the right price, agents can attract more buyers and ensure a quicker sale.
 
 ### Stakeholder
+
+
 Real Estate Agents: The primary stakeholders who will benefit from accurate pricing recommendations to help homeowners sell their houses quickly and at competitive prices.
 
+
+Buyers: To understand the fair market value of a house.
+
+
+
+Financial Analysts: To assess market trends and property values.
+
+
+
 ### Objective
+
+
 To develop a regression model that predicts the sale price of homes based on various features such as square footage, number of bedrooms, bathrooms, location, and other relevant variables.
 
+
 ## Dataset
+
+
 The project uses the King County House Sales dataset, kc_house_data.csv, which contains the following features:
 
 ## Column Names and descriptions for Kings County Data Set
@@ -38,12 +54,20 @@ The project uses the King County House Sales dataset, kc_house_data.csv, which c
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
 
+### Data Limitations
+
+
+The dataset may have missing values and outliers that could affect the model's accuracy. Additionally, the data is limited to a specific geographic area, which may not generalize well to other locations.
+
 ## Project Steps
 ### Data Collection and Preparation
 
 Loading and cleaning the dataset.
 Handling missing values and outliers.
 Converting dates and categorical variables to appropriate formats.
+
+Data Limitations
+The dataset may have missing values and outliers that could affect the model's accuracy. Additionally, the data is limited to a specific geographic area, which may not generalize well to other locations.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -54,6 +78,8 @@ Analyzing relationships between price and key features (e.g., sqft_living, bedro
 ## Model Development
 
 linear regression model.
+Multiple Linear Regression.![alt text](download.png)
+
 Switching correlated variables to check the variables yielding best model performance.
 Evaluating model performance.
 
