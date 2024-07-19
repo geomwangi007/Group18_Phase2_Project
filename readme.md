@@ -25,12 +25,20 @@ Financial Analysts: To assess market trends and property values.
 To develop a regression model that predicts the sale price of homes based on various features such as square footage, number of bedrooms, bathrooms, location, and other relevant variables.
 
 
-## Dataset
+## Data Understanding
 
 
-The project uses the King County House Sales dataset, kc_house_data.csv, which contains the following features:
+### Data Sources
 
-## Column Names and descriptions for Kings County Data Set
+
+The dataset is sourced from [Kaggle's House Prices dataset]. It includes various features such as the number of bedrooms, square footage, and location.
+
+
+### Dataset Overview
+
+The data likely represents a two-dimensional dataset with 21597 rows and 21 columns.
+
+
 * **id** - unique identified for a house
 * **dateDate** - house was sold
 * **pricePrice** -  is prediction target
@@ -54,9 +62,11 @@ The project uses the King County House Sales dataset, kc_house_data.csv, which c
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
 
+
+### Feature Relevance
+Each feature is included based on its potential impact on house prices. 
+
 ### Data Limitations
-
-
 The dataset may have missing values and outliers that could affect the model's accuracy. Additionally, the data is limited to a specific geographic area, which may not generalize well to other locations.
 
 ## Project Steps
@@ -66,8 +76,6 @@ Loading and cleaning the dataset.
 Handling missing values and outliers.
 Converting dates and categorical variables to appropriate formats.
 
-Data Limitations
-The dataset may have missing values and outliers that could affect the model's accuracy. Additionally, the data is limited to a specific geographic area, which may not generalize well to other locations.
 
 ## Exploratory Data Analysis (EDA)
 
