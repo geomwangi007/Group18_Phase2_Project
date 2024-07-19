@@ -3,7 +3,7 @@
 
 # King County House Sales Price Prediction
 ## Project Overview
-This project focuses on predicting house prices in King County, Washington, using regression modeling. The goal is to provide real estate agents with accurate pricing recommendations for homeowners looking to sell their properties as well as homebuyers looking to get a fair deal. By setting the right price, agents can attract more buyers and ensure a quicker sale.
+This project focuses on predicting house prices in King County, Washington, using regression modeling. The goal is to provide real estate agents ,Buyers and Financial Analysts with accurate pricing recommendations for homeowners looking to sell their properties as well as homebuyers looking to get a fair deal. By setting the right price, agents can attract more buyers and ensure a quicker sale.
 
 ### Stakeholder
 
@@ -22,24 +22,24 @@ Financial Analysts: To assess market trends and property values.
 ### Objective
 
 
-To develop a regression model that predicts the sale price of homes based on various features such as square footage, number of bedrooms, bathrooms, location, and other relevant variables.
+To develop a regression model that predicts the sale price of homes based on various features such as 'price', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'waterfront' and 'view'.
 
 
-## Data Understanding
+# Data Understanding
 
 
-### Data Sources
+## Data Sources
 
 
-The dataset is sourced from [Kaggle's House Prices dataset]. It includes various features such as the number of bedrooms, square footage, and location.
+The dataset is sourced from kc_house_data.csv . It includes various features such as the number of bedrooms, square footage, and location.
 
 
-### Dataset Overview
+## Dataset Overview
 
-The data likely represents a two-dimensional dataset with 21597 rows and 21 columns.
+The data represents a two-dimensional dataset with 21597 rows and 21 columns , with the following features : 
 
 
-* **id** - unique identified for a house
+* **id** - unique identifier for a house
 * **dateDate** - house was sold
 * **pricePrice** -  is prediction target
 * **bedroomsNumber** -  of Bedrooms/House
@@ -63,10 +63,10 @@ The data likely represents a two-dimensional dataset with 21597 rows and 21 colu
 
 
 
-### Feature Relevance
+## Feature Relevance
 Each feature is included based on its potential impact on house prices. 
 
-### Data Limitations
+## Data Limitations
 The dataset may have missing values and outliers that could affect the model's accuracy. Additionally, the data is limited to a specific geographic area, which may not generalize well to other locations.
 
 ## Project Steps
@@ -81,7 +81,7 @@ Converting dates and categorical variables to appropriate formats.
 
 Visualizing the distribution of the target variable (price).
 ![alt text](download-1.png)
-Analyzing relationships between price and key features (e.g., sqft_living, bedrooms, bathrooms).
+Analyzing the correlation between price and the other features (e.g., sqft_living, bedrooms, bathrooms).
 ![alt text](download-2.png)
 
 Key High Correlations:
@@ -105,13 +105,9 @@ bathrooms: Strong positive correlation (0.76) — More bathrooms are typically f
 ## Model Development
 
 linear regression model.
-Multiple Linear Regression.![alt text](download.png)
+![alt text](download.png)
 
-
-## Business Insights
-
-Provide actionable recommendations to real estate agents on pricing strategies.
-Highlight which home features add the most value to the property.
+Multiple Linear Regression.
 
 
 ## Deliverables
@@ -166,3 +162,39 @@ Given the better performance metrics, the business should invest in developing a
 
 Training and resources should be allocated to understand and utilize this model effectively, ensuring that the relevant data is continuously updated and the model is regularly evaluated for performance.
 
+# **Recommendations**
+
+
+Recommendations for Real Estate Agents
+Based on the regression analysis, we can provide the following recommendations to real estate agents:
+
+1. Focus on Living Space (sqft_living)
+
+
+Recommendation: Emphasize the total living space in marketing materials. Houses with larger living areas are highly valued.
+
+
+
+
+
+2. Enhance Property Grade and Condition
+
+
+Recommendation: Invest in improvements that can increase the overall grade and condition of the property.
+
+
+
+
+
+3. Capitalize on Waterfront and Views
+
+
+Recommendation: If the property has a waterfront view or high-quality view, make sure to highlight this feature prominently.
+
+
+
+
+4. Promote Bathroom Additions
+
+
+Recommendation: Properties with more bathrooms tend to have higher prices.
